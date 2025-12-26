@@ -31,6 +31,23 @@ li{
 li:hover{
   border-color:#FFFFFF;
 }
+li:hover{
+  background-color:#111111;
+  border-color:#ff0000;
+  cursor:pointer;
+}
+#resume a{
+  border-color:1px solid #FFFFFF;
+  padding:10px 20px;
+  font-size:0.8rem;
+  transistion: 0.3s;
+}
+#resume a:hover{
+  border:1px solid #FFFFFF;
+  padding:10px 20px;
+  font-size:0.8rem;
+  transistion:0.3s
+}
 a{
   color:#FFFFFF;
   text-decoration:none;
