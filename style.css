@@ -1,4 +1,43 @@
 body{
-  background-color:black;
-  color:white;
+  background-color:#000000;
+  color:#FFFFFF;
+  font-family:'Courier New',Courier,monospace;
+  padding:10% 15%;
+  line-height:1.6;
+  margin:0
+}
+header h1{
+  font-size:3rem;
+  letter-spacing:-2px;
+  border-bottom:2px solid #FFFFFF;
+  display:inline-block;
+  margin-bottom:50px;
+}
+h2{
+  font-size:1.2rem;
+  color:#888888;
+  margin-top:40px;
+}
+ul{
+  list-style-type:none;
+  padding:0;
+}
+li{
+  border: 1px solid #333333;
+  padding: 20px;
+  margin-bottom: 20px;
+  transistions: 0.3s;
+}
+li:hover{
+  border-color:#FFFFFF;
+}
+a{
+  color:#FFFFFF;
+  text-decoration:none;
+  font-weight:bold;
+  text-transform:uppercase;
+}
+p{
+  color:#AAAAAA;
+  font-size:0.9rem;
 }
