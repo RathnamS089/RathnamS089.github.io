@@ -8,12 +8,13 @@ body{
 }
 @font-face {
     font-family: 'Ndot';
-    src: url('https://raw.githubusercontent.com/xeji01/nothingfont/main/fonts/Ndot-57.ttf') format('truetype');
+    src: url('https://cdn.jsdelivr.net/gh/L-S-H/Nothing-Font@main/fonts/Ndot-57.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap; 
 }
 h1,h2{
-  font-family:'Ndot',monospace;
+  font-family:'Ndot','Courier New',Courier,monospace !important;
   text-transform:uppercase;
   letter-spacing:2px;
 }
