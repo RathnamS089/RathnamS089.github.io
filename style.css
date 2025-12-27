@@ -13,6 +13,37 @@ body{
     font-style: normal;
     font-display: swap; 
 }
+.navbar{
+  position:sticky;
+  top:0;
+  width:100%;
+  background-color:rgba(0,0,0,0.9);
+  border-bottom:1px solid #333;
+  z-index:1000;
+  padding:15px 0;
+  backdrop-filter:blur(5px);
+}
+.nav-links a{
+  font-family:'Ndot',monospace;
+  font-size:0.8rem;
+  color:#888;
+  text-decoration:none;
+  letter-spacing:2px;
+  transistions:0.3s;
+  border:none;
+  padding:5px 10px;
+}
+.nav-links a:hover{
+  color:#FFFFFF;
+  background-color:transparent;
+}
+.nav-links a.active{
+  color:#FFFFFF;
+  border-bottom:2px solid #ff0000;
+}
+html{
+  scroll-behaviour:smooth;
+}
 h1,h2{
   font-family:'Ndot','Courier New',Courier,monospace !important;
   text-transform:uppercase;
