@@ -6,9 +6,11 @@ body{
   line-height:1.6;
   margin:0
 }
-@font-face{
-  font-family:'Ndot';
-  src:url('https://cdn.jsdelivr.net/gh/xeji01/nothingfont@main/fonts/Ndot-57.ttf')format('truetype');
+@font-face {
+    font-family: 'Ndot';
+    src: url('https://raw.githubusercontent.com/xeji01/nothingfont/main/fonts/Ndot-57.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 h1,h2{
   font-family:'Ndot',monospace;
