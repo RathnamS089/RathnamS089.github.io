@@ -2,13 +2,14 @@ const canvas = document.getElementById('matrix');
 const ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
-const characters = "01"; 
+const characters = "01ｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿ"; 
 const fontSize = 16;
 const columns = canvas.width / fontSize;
 const drops = Array(Math.floor(columns)).fill(1);
 function draw() {
+    ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
-    ctx.fillStyle = "#FFFFFF";
+    ctx.fillStyle = "#0F0"; 
     ctx.font = fontSize + "px monospace";
     for (let i = 0; i < drops.length; i++) {
         const text = characters.charAt(Math.floor(Math.random() * characters.length));
@@ -19,8 +20,4 @@ function draw() {
         drops[i]++;
     }
 }
-window.addEventListener('resize', () => {
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-});
 setInterval(draw, 35);
