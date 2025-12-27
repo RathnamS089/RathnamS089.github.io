@@ -24,6 +24,41 @@ body{
     display:block;
     pointer-events: none; 
 }
+/* Container for the contact section */
+.contact-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Forces the label and button into a neat row */
+.contact-row {
+    display: flex;
+    align-items: center;
+}
+
+/* This fixed width ensures all buttons start at the same spot */
+.label {
+    width: 120px; 
+    color: #888;
+    font-family: 'Ndot', monospace;
+    font-size: 0.8rem;
+}
+
+/* Uniform button styling */
+.contact-row a {
+    border: 1px solid #333;
+    padding: 10px 20px;
+    min-width: 200px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.contact-row a:hover {
+    border-color: #ff0000;
+    background-color: #111;
+}
 .hero-selection{
   height:80vh;
   display:flex;
